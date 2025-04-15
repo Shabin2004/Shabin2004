@@ -1,3 +1,5 @@
+---using DDL commands---
+
 create database sports;
 use sports;
 
@@ -94,4 +96,4 @@ left join scores s on match_id=s.match_id;
  
 select p.player_name
 from players p
-right join scores s on match_id=s.match_id;
+right join scores s on match_
